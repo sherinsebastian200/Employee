@@ -12,7 +12,7 @@ public class Employee {
             switch (operation)
             {
                 case 1:
-                    ;
+
                     System.out.println("Enter Employee Code");
                     int ec = sc.nextInt();
                     arr.add(ec);
@@ -59,6 +59,14 @@ public class Employee {
                     }
                     System.out.println();
                     break;
+                case 2:
+                    System.out.println("Enter employee code");
+                    for (int i=0;i<arr.size();i++)
+                    {
+                        System.out.println(arr.get(i));
+                    }
+                    System.out.println();
+
 
 
 
