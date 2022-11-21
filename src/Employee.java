@@ -60,12 +60,18 @@ public class Employee {
                     System.out.println();
                     break;
                 case 2:
-                    System.out.println("Enter employee code");
+                    System.out.println("view employee details");
                     for (int i=0;i<arr.size();i++)
                     {
                         System.out.println(arr.get(i));
                     }
                     System.out.println();
+                    break;
+                case 3:
+
+
+
+
 
 
 
